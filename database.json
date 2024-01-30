@@ -1,0 +1,275 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "isAdministrator": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "isAdministrator": false
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "isAdministrator": false
+    },
+    {
+      "id": 4,
+      "name": "Alice Williams",
+      "email": "alice.williams@example.com",
+      "isAdministrator": true
+    },
+    {
+      "id": 5,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "isAdministrator": false
+    },
+    {
+      "id": 6,
+      "name": "Banjo Kendricks",
+      "email": "banjothegremlin@example.com",
+      "isAdministrator": true
+    },
+    {
+      "email": "rachelanne.kendricks@gmail.com",
+      "name": "Rachel Kendricks",
+      "isAdministrator": true,
+      "id": 7
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Eggs"
+    },
+    {
+      "id": 2,
+      "name": "Spinach"
+    },
+    {
+      "id": 3,
+      "name": "Cherry Tomatoes"
+    },
+    {
+      "id": 4,
+      "name": "Avocado"
+    },
+    {
+      "id": 5,
+      "name": "Whole Grain Bread"
+    },
+    {
+      "id": 6,
+      "name": "Greek Yogurt"
+    },
+    {
+      "id": 7,
+      "name": "Berries"
+    },
+    {
+      "id": 8,
+      "name": "Oats"
+    },
+    {
+      "id": 9,
+      "name": "Almond Milk"
+    },
+    {
+      "id": 10,
+      "name": "Chia Seeds"
+    },
+    {
+      "id": 11,
+      "name": "Salt"
+    },
+    {
+      "id": 12,
+      "name": "Pepper"
+    },
+    {
+      "id": 13,
+      "name": "Honey"
+    }
+  ],
+  "mealTypes": [
+    {
+      "id": 1,
+      "name": "Breakfast"
+    },
+    {
+      "id": 2,
+      "name": "Lunch"
+    },
+    {
+      "id": 3,
+      "name": "Dinner"
+    }
+  ],
+  "cuisineTypes": [
+    {
+      "id": 1,
+      "name": "American"
+    },
+    {
+      "id": 2,
+      "name": "Mediterranean"
+    },
+    {
+      "id": 3,
+      "name": "Mexican"
+    }
+  ],
+  "userRecipes": [
+    {
+      "id": 1,
+      "recipeId": 1,
+      "userId": 1
+    },
+    {
+      "id": 1,
+      "recipeId": 3,
+      "userId": 1
+    },
+    {
+      "id": 1,
+      "recipeId": 4,
+      "userId": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spinach and Tomato Omelette",
+      "mealTypeId": 1,
+      "cuisineTypeId": 2,
+      "instructions": "1) Whisk eggs and pour into a heated pan. 2) Add chopped spinach and halved cherry tomatoes. 3) Season with salt and pepper, then fold the omelette.",
+      "description": "A savory and healthy breakfast option that is quick to make.",
+      "image": "https://images.squarespace-cdn.com/content/v1/58ec0f88d482e9e6fda6f69c/1496327938941-D4E2F0872RL93D2ZXVBI/Beemster_Lite_2Milk_Omelet_800x531.jpg?format=2500w"
+    },
+    {
+      "id": 2,
+      "title": "Avocado Toast with Poached Egg",
+      "mealTypeId": 1,
+      "cuisineTypeId": 1,
+      "instructions": "1) Toast whole grain bread slices. 2) Mash avocado and spread it on the toast. 3) Top with a poached egg and season with salt and pepper.",
+      "description": "A delicious and nutritious breakfast with a combination of creamy avocado and a perfectly poached egg.",
+      "image": "https://www.mashed.com/img/gallery/simple-poached-egg-and-avocado-toast-recipe/l-intro-1625074064.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Greek Yogurt Parfait",
+      "mealTypeId": 1,
+      "cuisineTypeId": 2,
+      "instructions": "1) Layer Greek yogurt with fresh berries in a glass. 2) Sprinkle oats on top and drizzle with honey if desired.",
+      "description": "A refreshing and wholesome parfait with the goodness of Greek yogurt, berries, and oats.",
+      "image": "https://thewoodenskillet.com/wp-content/uploads/2023/05/greek-yogurt-parfait-recipe-1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Berry Chia Seed Pudding",
+      "mealTypeId": 1,
+      "cuisineTypeId": 1,
+      "instructions": "1) Mix chia seeds with almond milk and let it sit in the fridge overnight. 2) In the morning, layer the chia seed pudding with fresh berries. 3) Drizzle with honey if desired.",
+      "description": "A nutritious and satisfying pudding made with chia seeds, almond milk, and fresh berries.",
+      "image": "https://www.eatwell101.com/wp-content/uploads/2019/10/blueberry-chia-seed-pudding-breakfast-recipe.jpg"
+    }
+  ],
+  "recipeIngredients": [
+    {
+      "id": 1,
+      "recipeId": 1,
+      "ingredientId": 1
+    },
+    {
+      "id": 2,
+      "recipeId": 1,
+      "ingredientId": 2
+    },
+    {
+      "id": 3,
+      "recipeId": 1,
+      "ingredientId": 3
+    },
+    {
+      "id": 4,
+      "recipeId": 1,
+      "ingredientId": 11
+    },
+    {
+      "id": 5,
+      "recipeId": 1,
+      "ingredientId": 12
+    },
+    {
+      "id": 6,
+      "recipeId": 2,
+      "ingredientId": 5
+    },
+    {
+      "id": 7,
+      "recipeId": 2,
+      "ingredientId": 4
+    },
+    {
+      "id": 8,
+      "recipeId": 2,
+      "ingredientId": 1
+    },
+    {
+      "id": 9,
+      "recipeId": 2,
+      "ingredientId": 11
+    },
+    {
+      "id": 10,
+      "recipeId": 2,
+      "ingredientId": 12
+    },
+    {
+      "id": 11,
+      "recipeId": 3,
+      "ingredientId": 6
+    },
+    {
+      "id": 12,
+      "recipeId": 3,
+      "ingredientId": 7
+    },
+    {
+      "id": 13,
+      "recipeId": 3,
+      "ingredientId": 8
+    },
+    {
+      "id": 14,
+      "recipeId": 3,
+      "ingredientId": 13
+    },
+    {
+      "id": 15,
+      "recipeId": 4,
+      "ingredientId": 7
+    },
+    {
+      "id": 16,
+      "recipeId": 4,
+      "ingredientId": 10
+    },
+    {
+      "id": 17,
+      "recipeId": 4,
+      "ingredientId": 9
+    },
+    {
+      "id": 18,
+      "recipeId": 4,
+      "ingredientId": 13
+    }
+  ]
+}

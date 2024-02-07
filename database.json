@@ -1,16 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "John Doe",
+      "name": "John Michael III",
       "email": "john.doe@example.com",
-      "isAdministrator": true
+      "isAdministrator": true,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com",
-      "isAdministrator": false
+      "name": "Jane Smith III",
+      "email": "jane.smith2@example.com",
+      "isAdministrator": false,
+      "id": 2
     },
     {
       "id": 3,
@@ -19,10 +19,10 @@
       "isAdministrator": false
     },
     {
-      "id": 4,
-      "name": "Alice Williams",
-      "email": "alice.williams@example.com",
-      "isAdministrator": true
+      "name": "Alice William",
+      "email": "alice.william@example.com",
+      "isAdministrator": false,
+      "id": 4
     },
     {
       "id": 5,
@@ -31,10 +31,10 @@
       "isAdministrator": false
     },
     {
-      "id": 6,
       "name": "Banjo Kendricks",
       "email": "banjothegremlin@example.com",
-      "isAdministrator": true
+      "isAdministrator": true,
+      "id": 6
     },
     {
       "email": "rachelanne.kendricks@gmail.com",
@@ -95,6 +95,134 @@
     {
       "id": 13,
       "name": "Honey"
+    },
+    {
+      "id": 14,
+      "name": "Quinoa"
+    },
+    {
+      "id": 15,
+      "name": "Cucumber"
+    },
+    {
+      "id": 16,
+      "name": "Lemon"
+    },
+    {
+      "id": 17,
+      "name": "Olive oil"
+    },
+    {
+      "id": 18,
+      "name": "Whole grain wraps"
+    },
+    {
+      "id": 19,
+      "name": "Hummus"
+    },
+    {
+      "id": 20,
+      "name": "Mixed salad greens"
+    },
+    {
+      "id": 21,
+      "name": "Bell peppers"
+    },
+    {
+      "id": 22,
+      "name": "Black beans"
+    },
+    {
+      "id": 23,
+      "name": "Cilantro"
+    },
+    {
+      "id": 24,
+      "name": "Lime"
+    },
+    {
+      "id": 25,
+      "name": "Garlic"
+    },
+    {
+      "id": 26,
+      "name": "Chicken breast"
+    },
+    {
+      "id": 27,
+      "name": "Celery"
+    },
+    {
+      "id": 28,
+      "name": "Grapes"
+    },
+    {
+      "id": 29,
+      "name": "Apple"
+    },
+    {
+      "id": 30,
+      "name": "Romaine lettuce"
+    },
+    {
+      "id": 31,
+      "name": "Salmon fillets"
+    },
+    {
+      "id": 32,
+      "name": "Lentils"
+    },
+    {
+      "id": 33,
+      "name": "Carrots"
+    },
+    {
+      "id": 35,
+      "name": "Yellow onion"
+    },
+    {
+      "id": 36,
+      "name": "Vegetable broth"
+    },
+    {
+      "id": 37,
+      "name": "Tomato paste"
+    },
+    {
+      "id": 38,
+      "name": "Bay leaves"
+    },
+    {
+      "id": 39,
+      "name": "Brown rice"
+    },
+    {
+      "id": 40,
+      "name": "Zucchini"
+    },
+    {
+      "id": 41,
+      "name": "Red onion"
+    },
+    {
+      "id": 43,
+      "name": "Italian seasoning"
+    },
+    {
+      "id": 44,
+      "name": "Feta cheese"
+    },
+    {
+      "id": 45,
+      "name": "Balsamic vinegar"
+    },
+    {
+      "id": 46,
+      "name": "Dijon mustard"
+    },
+    {
+      "id": 47,
+      "name": "Portobello mushrooms"
     }
   ],
   "mealTypes": [
@@ -127,19 +255,39 @@
   ],
   "userRecipes": [
     {
-      "id": 1,
       "recipeId": 1,
-      "userId": 1
+      "userId": 7,
+      "id": 6
     },
     {
-      "id": 1,
       "recipeId": 3,
-      "userId": 1
+      "userId": 7,
+      "id": 7
     },
     {
-      "id": 1,
-      "recipeId": 4,
-      "userId": 1
+      "recipeId": 3,
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "recipeId": 2,
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "recipeId": 3,
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "recipeId": 8,
+      "userId": 1,
+      "id": 19
+    },
+    {
+      "recipeId": 12,
+      "userId": 1,
+      "id": 20
     }
   ],
   "recipes": [
@@ -171,13 +319,76 @@
       "image": "https://thewoodenskillet.com/wp-content/uploads/2023/05/greek-yogurt-parfait-recipe-1.jpg"
     },
     {
-      "id": 4,
       "title": "Berry Chia Seed Pudding",
       "mealTypeId": 1,
-      "cuisineTypeId": 1,
       "instructions": "1) Mix chia seeds with almond milk and let it sit in the fridge overnight. 2) In the morning, layer the chia seed pudding with fresh berries. 3) Drizzle with honey if desired.",
       "description": "A nutritious and satisfying pudding made with chia seeds, almond milk, and fresh berries.",
-      "image": "https://www.eatwell101.com/wp-content/uploads/2019/10/blueberry-chia-seed-pudding-breakfast-recipe.jpg"
+      "image": "https://www.eatwell101.com/wp-content/uploads/2019/10/blueberry-chia-seed-pudding-breakfast-recipe.jpg",
+      "id": 4
+    },
+    {
+      "title": "Quinoa Salad",
+      "mealTypeId": 2,
+      "instructions": "Cook quinoa according to package instructions and let it cool. In a large bowl, combine cooked quinoa, halved cherry tomatoes, diced cucumber, and diced avocado. Drizzle with olive oil, squeeze fresh lemon juice over the salad, and season with salt and pepper to taste. Toss everything together until well combined. Serve chilled or at room temperature.",
+      "description": "This refreshing and nutritious salad features protein-packed quinoa, juicy cherry tomatoes, crisp cucumber, creamy avocado, and a zesty lemon dressing.",
+      "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2019-11-recipe-mediterranean-quinoa-salad%2F2019-10-21_Kitchn89095_Mediteranean-Quinoa-Salad",
+      "id": 6
+    },
+    {
+      "title": "Veggie Wrap",
+      "mealTypeId": 2,
+      "instructions": "Spread a generous layer of hummus onto a whole grain wrap or tortilla. Layer mixed salad greens, sliced bell peppers, avocado slices, and sprouts (if using) on top of the hummus. Squeeze fresh lemon or lime juice over the veggies for extra flavor. Roll up the wrap tightly, folding in the sides as you go. Slice the wrap in half diagonally and serve immediately, or pack for a portable lunch option.",
+      "description": "These veggie wraps are quick and easy to make, filled with creamy hummus, crunchy vegetables, and fresh greens, all wrapped in a whole grain tortilla.",
+      "image": "https://www.foodiecrush.com/wp-content/uploads/2015/05/Hummus-Veggie-Wrap-foodiecrush.com-16-1-500x500.jpg",
+      "id": 7
+    },
+    {
+      "title": "Stuffed Bell Peppers",
+      "mealTypeId": 2,
+      "instructions": "Preheat the oven to 375°F (190°C). Cut the tops off the bell peppers and remove the seeds and membranes. In a bowl, mix cooked quinoa, rinsed black beans, halved cherry tomatoes, chopped cilantro, minced garlic, lime juice, salt, and pepper. Stuff the bell peppers with the quinoa mixture, pressing down gently to fill them evenly. Place the stuffed peppers in a baking dish and cover with foil. Bake for 25-30 minutes, or until the peppers are tender. Remove from the oven and let cool slightly before serving.",
+      "description": "These colorful bell peppers are stuffed with a hearty mixture of quinoa, black beans, cherry tomatoes, and cilantro, then baked to perfection for a satisfying and flavorful meal.",
+      "image": "https://www.eatyourselfskinny.com/wp-content/uploads/2012/07/161.jpg",
+      "id": 8
+    },
+    {
+      "title": "Chicken Salad Lettuce Wraps",
+      "mealTypeId": 2,
+      "instructions": "Shred or dice cooked chicken breast and place it in a bowl. Add diced celery, halved grapes, diced apple, and chopped almonds or walnuts (if using) to the bowl. In a separate small bowl, mix Greek yogurt with lemon juice, salt, and pepper to make the dressing. Pour the dressing over the chicken mixture and toss until well coated. Spoon the chicken salad onto lettuce leaves and roll them up. Serve immediately or refrigerate until ready to eat.",
+      "description": "These light and flavorful lettuce wraps are filled with tender chicken breast, crunchy celery, sweet grapes, and creamy Greek yogurt, perfect for a satisfying and protein-rich lunch.",
+      "image": "https://anaankeny.com/wp-content/uploads/2020/02/Easy-Chicken-Salad-in-Lettuce-Wraps-11.jpg",
+      "id": 9
+    },
+    {
+      "title": "Salmon and Quinoa Salad",
+      "mealTypeId": 3,
+      "instructions": "Cook quinoa according to package instructions and let it cool. Season salmon fillets with salt and pepper, then pan-sear until cooked through. In a large bowl, combine cooked quinoa, mixed salad greens, diced avocado, halved cherry tomatoes, sliced cucumber, and thinly sliced red onion. In a small bowl, whisk together lemon juice, olive oil, Dijon mustard, honey, salt, and pepper to make the dressing. Pour the dressing over the salad and toss to coat evenly. Divide the salad among plates, top each serving with a piece of salmon, and serve immediately.",
+      "description": "A refreshing and nutritious salad featuring pan-seared salmon, fluffy quinoa, and a medley of fresh vegetables tossed in a zesty dressing.",
+      "image": "https://www.jessicagavin.com/wp-content/uploads/2016/02/mediterranean-spiced-salmon-over-vegetable-quinoa-1200.jpg",
+      "id": 10
+    },
+    {
+      "title": "Lentil Vegetable Soup",
+      "mealTypeId": 3,
+      "instructions": "Heat olive oil in a large pot over medium heat. Add diced onions, carrots, and celery, and sauté until softened. Stir in minced garlic, Italian seasoning, and bay leaves, and cook for another minute. Add lentils, vegetable broth, and tomato paste to the pot. Bring to a boil, then reduce heat and simmer until lentils are tender, about 20-25 minutes. Stir in chopped spinach (or kale) and continue cooking for another 5 minutes. Season the soup with salt and pepper to taste. Ladle the soup into bowls and serve hot, optionally garnished with a sprinkle of fresh parsley.",
+      "description": "A hearty and comforting soup packed with protein-rich lentils, vibrant vegetables, and aromatic spices. Perfect for a cozy meal on chilly days.",
+      "image": "https://www.homemademastery.com/wp-content/uploads/2021/10/Lentil-vegetable-soup-IMG_9832.jpg",
+      "id": 11
+    },
+    {
+      "title": "Grilled Chicken and Vegetable Skewers with Brown Rice",
+      "mealTypeId": 3,
+      "instructions": "In a bowl, combine olive oil, lemon juice, minced garlic, Italian seasoning, salt, and pepper to make the marinade. Cut chicken breast into cubes and marinate in the prepared mixture for at least 30 minutes. Preheat grill to medium-high heat. Thread marinated chicken cubes onto skewers alternating with bell peppers, zucchini, red onion, and cherry tomatoes. Grill skewers for 10-12 minutes, turning occasionally, until chicken is cooked through and vegetables are tender. Meanwhile, cook brown rice according to package instructions. Serve grilled chicken and vegetable skewers alongside brown rice, garnished with fresh parsley if desired.",
+      "description": "Juicy grilled chicken and colorful vegetables skewered and served with fluffy brown rice. A wholesome and satisfying meal bursting with flavors.",
+      "image": "https://feelgoodfoodie.net/wp-content/uploads/2022/04/Grilled-Chicken-Kabobs-09.jpg",
+      "id": 12
+    },
+    {
+      "title": "Quinoa Stuffed Portobello Mushrooms",
+      "mealTypeId": 3,
+      "instructions": "Preheat oven to 375°F (190°C). Remove stems from portobello mushrooms and gently scrape out the gills using a spoon. Cook quinoa according to package instructions and let it cool. In a skillet, heat olive oil over medium heat. Add minced garlic and cook until fragrant. Add chopped spinach and sun-dried tomatoes to the skillet and cook until spinach wilts. Stir in cooked quinoa and crumbled feta cheese. Season with salt, pepper, and Italian seasoning to taste. Stuff each portobello mushroom cap with the quinoa mixture, pressing down gently to pack it in. Place stuffed mushrooms on a baking sheet lined with parchment paper. Drizzle with balsamic vinegar and olive oil. Bake in the preheated oven for 20-25 minutes, until mushrooms are tender and filling is heated through. Serve quinoa stuffed portobello mushrooms warm, optionally garnished with fresh parsley.",
+      "description": "Hearty portobello mushrooms stuffed with a flavorful mixture of quinoa, spinach, sun-dried tomatoes, and tangy feta cheese. A delicious vegetarian dish packed with wholesome ingredients.",
+      "image": "https://lizthechef.com/wp-content/uploads/2014/02/Quinoa-Stuffed-Portobellos.jpg",
+      "id": 13
     }
   ],
   "recipeIngredients": [
@@ -270,6 +481,411 @@
       "id": 18,
       "recipeId": 4,
       "ingredientId": 13
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 14,
+      "id": 24
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 11,
+      "id": 25
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 3,
+      "id": 26
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 12,
+      "id": 27
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 15,
+      "id": 28
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 4,
+      "id": 29
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 16,
+      "id": 30
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 17,
+      "id": 31
+    },
+    {
+      "recipeId": 7,
+      "ingredientId": 18,
+      "id": 32
+    },
+    {
+      "recipeId": 7,
+      "ingredientId": 20,
+      "id": 33
+    },
+    {
+      "recipeId": 7,
+      "ingredientId": 19,
+      "id": 34
+    },
+    {
+      "recipeId": 7,
+      "ingredientId": 21,
+      "id": 35
+    },
+    {
+      "recipeId": 7,
+      "ingredientId": 4,
+      "id": 36
+    },
+    {
+      "recipeId": 7,
+      "ingredientId": 16,
+      "id": 37
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 21,
+      "id": 38
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 14,
+      "id": 39
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 25,
+      "id": 40
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 22,
+      "id": 41
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 11,
+      "id": 42
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 12,
+      "id": 43
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 3,
+      "id": 44
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 23,
+      "id": 45
+    },
+    {
+      "recipeId": 8,
+      "ingredientId": 24,
+      "id": 46
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 26,
+      "id": 47
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 6,
+      "id": 48
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 11,
+      "id": 49
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 16,
+      "id": 50
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 27,
+      "id": 51
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 12,
+      "id": 52
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 28,
+      "id": 53
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 29,
+      "id": 54
+    },
+    {
+      "recipeId": 9,
+      "ingredientId": 30,
+      "id": 55
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 13,
+      "id": 56
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 11,
+      "id": 57
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 31,
+      "id": 58
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 12,
+      "id": 59
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 3,
+      "id": 60
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 14,
+      "id": 61
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 16,
+      "id": 62
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 20,
+      "id": 63
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 46,
+      "id": 64
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 17,
+      "id": 65
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 4,
+      "id": 66
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 15,
+      "id": 67
+    },
+    {
+      "recipeId": 10,
+      "ingredientId": 41,
+      "id": 68
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 32,
+      "id": 69
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 33,
+      "id": 70
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 37,
+      "id": 71
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 25,
+      "id": 72
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 38,
+      "id": 73
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 2,
+      "id": 74
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 35,
+      "id": 75
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 17,
+      "id": 76
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 11,
+      "id": 77
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 43,
+      "id": 78
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 27,
+      "id": 79
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 12,
+      "id": 80
+    },
+    {
+      "recipeId": 11,
+      "ingredientId": 36,
+      "id": 81
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 26,
+      "id": 82
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 40,
+      "id": 83
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 11,
+      "id": 84
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 12,
+      "id": 85
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 21,
+      "id": 86
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 17,
+      "id": 87
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 41,
+      "id": 88
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 25,
+      "id": 89
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 43,
+      "id": 90
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 3,
+      "id": 91
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 39,
+      "id": 92
+    },
+    {
+      "recipeId": 12,
+      "ingredientId": 16,
+      "id": 93
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 45,
+      "id": 94
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 2,
+      "id": 95
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 14,
+      "id": 96
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 43,
+      "id": 97
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 12,
+      "id": 98
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 3,
+      "id": 99
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 11,
+      "id": 100
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 44,
+      "id": 101
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 25,
+      "id": 102
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 17,
+      "id": 103
+    },
+    {
+      "recipeId": 13,
+      "ingredientId": 47,
+      "id": 104
     }
   ]
 }

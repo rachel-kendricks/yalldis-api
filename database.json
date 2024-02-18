@@ -37,8 +37,8 @@
       "id": 6
     },
     {
-      "email": "rachelanne.kendricks@gmail.com",
       "name": "Rachel Kendricks",
+      "email": "rachelanne.kendricks@gmail.com",
       "isAdministrator": true,
       "id": 7
     }
@@ -255,39 +255,29 @@
   ],
   "userRecipes": [
     {
-      "recipeId": 1,
-      "userId": 7,
-      "id": 6
-    },
-    {
-      "recipeId": 3,
-      "userId": 7,
-      "id": 7
-    },
-    {
-      "recipeId": 3,
-      "userId": 2,
-      "id": 16
-    },
-    {
       "recipeId": 2,
       "userId": 2,
       "id": 17
     },
     {
-      "recipeId": 3,
-      "userId": 1,
-      "id": 18
+      "recipeId": 1,
+      "userId": 2,
+      "id": 21
+    },
+    {
+      "recipeId": 9,
+      "userId": 7,
+      "id": 25
     },
     {
       "recipeId": 8,
-      "userId": 1,
-      "id": 19
+      "userId": 7,
+      "id": 26
     },
     {
-      "recipeId": 12,
+      "recipeId": 1,
       "userId": 1,
-      "id": 20
+      "id": 27
     }
   ],
   "recipes": [
